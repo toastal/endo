@@ -1,0 +1,23 @@
+{
+  "name": "endo",
+  "version": "1.0.0",
+  "description": "Endo for Elm",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastal/endo.git"
+  },
+  "author": "toastal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toastal/endo/issues"
+  },
+  "homepage": "https://github.com/toastal/endo#readme",
+  "dependencies": {
+    "elm": "~0.19.0-bugfix6"
+  }
+}
