@@ -1,6 +1,6 @@
 {
   "name": "endo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Endo for Elm",
   "private": true,
   "main": "index.js",

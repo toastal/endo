@@ -3,7 +3,7 @@
     "name": "toastal/endo",
     "summary": "Endo for Elm: a simple endomorphism to simplify code",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Endo"
     ],
