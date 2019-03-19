@@ -21,8 +21,8 @@ So why is this useful? Well for one it can make type signatures more concise, bu
 type alias P =
     { x : Int, y : Int }
 
-type alias Point =
-    Point P
+type Point
+    = Point P
 
 coordinates : List Point
 coordinates =
