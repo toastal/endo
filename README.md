@@ -8,7 +8,7 @@ Endo for Elm: Endomorphisms to simplify code
 
 ###### But you can use it if you want
 
-This mostly exists to show a pattern since this package is only one thing.
+This mostly exists to show a pattern since this package is only one thing (with a bonus second thing).
 
 ```elm
 type alias Endo a =
@@ -67,6 +67,29 @@ mapPoint fn (Point p) =
 newCoordinates : List Point
 newCoordinates =
     List.map (mapPoint (setX 0)) coordinates
+```
+
+Bonus round: We can take it a little further and make on `Over` type that is should remind us of `over` from Optical libraries in other functional languages. Which represents this function idea of mapping a value in a container.
+
+```elm
+type alias Endo a =
+    a -> a
+
+type alias Over outer inner =
+    -- Equivalent to (a -> a) -> b -> b
+    Endo inner -> Endo outer
+
+setX : a -> Endo { r | x : a }
+setX x_ r =
+    { r | x = x_ }
+
+overPoint : Over Point P
+overPoint fn (Point p) =
+    Point (fn p)
+
+newCoordinates : List Point
+newCoordinates =
+    List.map (overPoint (setX 0)) coordinates
 ```
 
 So, you can pull this package in … or not, and just make you own `Endo` in your project 🤷.
