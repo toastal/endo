@@ -96,7 +96,7 @@ So, you can pull this package in … or not, and just make you own `Endo` in you
 
 ## Project & Community Notes
 
-This project is regrettably available on [GitHub](https://github.com/toastal/either). The Elm community has tied itself to the closed-source, Microsoft-owned code forge of GitHub for package registry and identity. This does not protect the privacy or freedom of its community members.
+This project is regrettably available on [GitHub](https://github.com/toastal/endo). The Elm community has tied itself to the closed-source, Microsoft-owned code forge of GitHub for package registry and identity. This does not protect the privacy or freedom of its community members.
 
 ---
 
@@ -109,6 +109,6 @@ This project is licensed under Apache License 2.0 - [LICENSE](./LICENSE) file fo
 If you want to make a small contribution to the maintanence of this & other projects
 
 - [Liberapay](https://liberapay.com/toastal/)
-- [Bitcoin: `39nLVxrXPnD772dEqWFwfZZbfTv5BvV89y`](link:bitcoin://39nLVxrXPnD772dEqWFwfZZbfTv5BvV89y?message=Funding%20toastal%E2%80%99s%20Elm%20either%20development
+- [Bitcoin: `39nLVxrXPnD772dEqWFwfZZbfTv5BvV89y`](link:bitcoin://39nLVxrXPnD772dEqWFwfZZbfTv5BvV89y?message=Funding%20toastal%E2%80%99s%20Elm%20endo%20development
 ) (verified on [Keybase](https://keybase.io/toastal/sigchain#690220ca450a3e73ff800c3e059de111d9c1cd2fcdaf3d17578ad312093fff2c0f))
-- [Zcash: `t1a9pD1D2SDTTd7dbc15KnKsyYXtGcjHuZZ`](link:zcash://t1a9pD1D2SDTTd7dbc15KnKsyYXtGcjHuZZ?message=Funding%20toastal%E2%80%99s%20Elm%20either%20development) (verified on [Keybase](https://keybase.io/toastal/sigchain#65c0114a3c8ffb46e39e4d8b5ee0c06c9eb97a02c4f6c42a2b157ca83b8c47c70f))
+- [Zcash: `t1a9pD1D2SDTTd7dbc15KnKsyYXtGcjHuZZ`](link:zcash://t1a9pD1D2SDTTd7dbc15KnKsyYXtGcjHuZZ?message=Funding%20toastal%E2%80%99s%20Elm%20endo%20development) (verified on [Keybase](https://keybase.io/toastal/sigchain#65c0114a3c8ffb46e39e4d8b5ee0c06c9eb97a02c4f6c42a2b157ca83b8c47c70f))
